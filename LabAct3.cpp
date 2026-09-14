@@ -6,7 +6,7 @@ int main(){
     cout << "** DAYS IN A WEEK **\n\nENTER A NUMBER FROM (1-7): ";
     cin >> num;
 
-    if(num < 1 || num > 78){
+    if(num < 1 || num > 7){
         cout << "INVALID NUMBER\n";
         return 0;
     }
